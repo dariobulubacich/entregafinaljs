@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Lionel Andres",
+        "apellido": "Messi",
+        "club": "Paris Saint-Germain",
+        "fechaNacimiento": "24-06-1987"
+    },
+    {
+        "nombre": "Cristiano",
+        "apellido": "Ronaldo",
+        "club": "Manchester United",
+        "fechaNacimiento": "05-02-1985"
+    },
+    {
+        "nombre": "Neymar",
+        "apellido": "Jr",
+        "club": "Paris Saint-Germain",
+        "fechaNacimiento": "05-02-1992"
+    }
+]

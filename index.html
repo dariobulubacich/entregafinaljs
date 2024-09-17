@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.13.2/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.13.2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Registro y Login</title>
+</head>
+<body class="body-index">
+    <div class="form-container">        
+
+        <h2>Ingresar</h2>
+        <form id="form-login">
+            <input type="text" placeholder="Usuario" id="user" name="user" />
+            <input type="password" placeholder="Contraseña" id="pass" name="pass" />
+            <input type="submit" value="Ingresar" />
+            <p id="loginMessage" class="message"></p>
+            <div class="check">
+                <label for="check">Recordar</label>
+                <input type="checkbox" id="check" name="check" />
+                <p id="message"></p>
+            </div>
+        </form>
+
+        <h3>Registro</h3>
+        <form id="form-register">
+            <input type="text" placeholder="Usuario" id="newUser" name="newUser" />
+            <input type="password" placeholder="Contraseña" id="newPass" name="newPass" />
+            <input type="submit" value="Registrar" />
+            <p id="registerMessage" class="message"></p>
+        </form>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>
